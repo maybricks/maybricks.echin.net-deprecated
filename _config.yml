@@ -1,0 +1,21 @@
+title: Maybricks Sdn Bhd
+title_cn: 大馬轉業有限公司
+slogan: "Building A Stronger Future"
+slogan_1: "Building A"
+slogan_2: "Stronger Future"
+url: "https://maybricks.my"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+address1: "Batu 36, Jalan Air Hitam, Bukit Batu,"
+address2: "81000 Kulaijaya, Johor, Malaysia."
+phone: "(60) 7 651 1022, 651 1186, 651 2210"
+fax: "(60) 7 651 2818"
+email: "maybrickskulai@gmail.com"
+
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

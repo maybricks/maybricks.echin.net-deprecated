@@ -1,0 +1,58 @@
+.site-branding img, .site-branding .site-title {
+    float: left;
+}
+
+.site-title {
+    color: #333;
+    margin-left: 8px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:hover .site-title {
+    opacity: 0.95;
+}
+
+.site-title-cn {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 4.5px;
+    line-height: 1.3em;
+}
+
+.site-title-en {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+
+.tp-caption.slogan {
+    color: #eee;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #800;
+}
+
+.tp-caption.slogan-1 {
+    margin-bottom: 68px;
+}
+
+.tp-caption.slogan-2 {
+    margin-top: 68px;
+}
+
+.tparrows {
+    display: none;
+}
+
+.site-footer .widget img {
+    margin: 0;
+}
+
+.site-footer .widget .site-title {
+    color: #ddd;
+}

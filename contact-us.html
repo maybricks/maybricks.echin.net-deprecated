@@ -1,0 +1,41 @@
+---
+layout: default
+title: Contact Us
+---
+                <div class="big-title">
+                    <div class="container">
+                        <h1 class="entry-title">Contact Us</h1>
+                        <div class="breadcrumb">
+                            <div class="container">
+                                <ul class="tm_bread_crumb">
+                                    <li class="top"><a href="/">Home</a></li>
+                                    <li class="sub tail current">Contact Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section section-contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="mb-2">
+                                    <div id="map-canvas" data-address="{{ site.title }}" data-height="370" data-width="100%" data-zoom="16" data-map_type="roadmap" data-map_style="default"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mb-2">
+                                    <h1>
+                                        {{ site.title }}
+                                    </h1>
+                                </div>
+                                <div class="contact-info">
+                                    <p><i class="fa fa-map-marker"></i>{{ site.address1 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ site.address2 }}</p>
+                                    <p><i class="fa fa-phone"></i>{{ site.phone }}</p>
+                                    <p><i class="fa fa-fax"></i>{{ site.fax }}</p>
+                                    <p><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>

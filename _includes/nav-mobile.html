@@ -1,0 +1,23 @@
+        <div class="snap-drawers">
+            <div class="snap-drawer snap-drawer-left">
+                <div class="mobile-menu">
+                    <ul class="menu">
+{% for nav in include.navs %}
+    {% if nav.link %}
+        <li><a href="{{ nav.link }}">{{ nav.name }}</a></li>
+    {% else %}
+        <li>
+            <a href="#">{{ nav.name }}</a>
+            <ul class="sub-menu">
+            {% for subnav in nav.subnavs %}
+                <li><a href="{{ subnav.link }}">{{ subnav.name }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endif %}
+{% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="snap-drawer snap-drawer-right"></div>
+        </div>

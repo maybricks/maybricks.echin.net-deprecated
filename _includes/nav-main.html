@@ -1,0 +1,33 @@
+                                    <div class="primary-menu">
+                                        <ul class="menu">
+{% for nav in include.navs %}
+    {% assign class = "" %}
+
+    {% if nav.link == page.url %}
+        {% assign class = class | append: " current-menu-item" %}
+    {% endif %}
+
+    {% if nav.subnavs %}
+        {% assign class = class | append: " menu-item-has-children" %}
+    {% endif %}
+
+    {% if nav.link %}
+        <li{% if class %} class="{{ class }}"{% endif %}><a href="{{ nav.link }}">{{ nav.name }}</a></li>
+    {% else %}
+        {% for subnav in nav.subnavs %}
+            {% if subnav.link == page.url %}
+                {% assign class = class | append: " current-menu-item" %}
+            {% endif %}
+        {% endfor %}
+        <li{% if class %} class="{{ class }}"{% endif %}>
+            <a href="#">{{ nav.name }}</a>
+            <ul class="sub-menu">
+            {% for subnav in nav.subnavs %}
+                <li><a href="{{ subnav.link }}">{{ subnav.name }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endif %}
+{% endfor %}
+                                        </ul>
+                                    </div>

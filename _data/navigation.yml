@@ -1,0 +1,34 @@
+- name: Home
+  link: /
+- name: Products
+  subnavs:
+    - name: Common Solid Bricks
+      link: "#"
+    - name: Common Blocks
+      link: "#"
+    - name: Facing Bricks
+      link: "#"
+    - name: Clay Pavers
+      link: "#"
+    - name: Brick Tiles
+      link: "#"
+- name: Projects
+  subnavs:
+    - name: Project 1
+      link: "#"
+    - name: Project 2
+      link: "#"
+    - name: Project 3
+      link: "#"
+    - name: Project 4
+      link: "#"
+    - name: Project 5
+      link: "#"
+- name: About Us
+  subnavs:
+    - name: Company Profile
+      link: /about-us.html
+    - name: Bricks Manufacturing Process
+      link: /manufacturing-process.html
+- name: Contact Us
+  link: /contact-us.html
