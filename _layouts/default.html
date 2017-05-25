@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
-        <title>{{ site.title }}</title>
+        <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
         {% include stylesheet.html %}
         <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css" />
         <link href="//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css" />
