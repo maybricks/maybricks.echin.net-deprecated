@@ -1,5 +1,10 @@
+{% if page.title == 'Contact Us' %}
         <script type="text/javascript" src="//maps.google.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}"></script>
+{% endif %}
 {% for javascript in site.data.javascript %}
         <script type="text/javascript" src="/js/{{ javascript }}.js"></script>
 {% endfor %}
+{% if page.title == 'Contact Us' %}
+        <script type="text/javascript" src="/js/gmap3.min.js"></script>
+{% endif %}
 {% include google-analytics.html %}
