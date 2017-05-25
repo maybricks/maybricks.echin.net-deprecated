@@ -28,6 +28,8 @@
   subnavs:
     - name: Company Profile
       link: /about-us.html
+    - name: Our History
+      link: /our-history.html
     - name: Bricks Manufacturing Process
       link: /manufacturing-process.html
 - name: Contact Us

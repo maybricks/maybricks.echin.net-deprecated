@@ -49,8 +49,52 @@ a:hover .site-title {
     display: none;
 }
 
+.mb-2 {
+    color: #666;
+    text-align: justify;
+}
+
+.mb-2 ol {
+    margin-left: 30px;
+    margin-bottom: 1.5em;
+}
+
+.mb-2 p.subtitle {
+    color: #222;
+    font-size: 20px;
+    margin: 50px 0 10px;
+}
+
+.mb-2 p.subtitle:first-child {
+    margin-top: 0;
+}
+
 .site-footer .widget img {
     margin: 0;
+}
+
+.site-footer .widget-title-iso {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.site-footer .widget-title-iso-img {
+    text-align: center;
+}
+
+.site-footer .widget-title-iso-img img {
+    height: 100px;
+}
+
+.site-footer .widget-title-iso-small {
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0 10px;
+    text-align: center;
 }
 
 .site-footer .widget .site-title {
