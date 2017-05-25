@@ -5,8 +5,8 @@ slogan_1: "Building A"
 slogan_2: "Stronger Future"
 url: "https://maybricks.my"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+google_analytics_key: "UA-99929631-1"
+google_maps_javascript_api_key: "AIzaSyDeLThqYG0AvcdD_jJFFFvgZoZoGauRQeg"
 address1: "Batu 36, Jalan Air Hitam, Bukit Batu,"
 address2: "81000 Kulaijaya, Johor, Malaysia."
 phone: "(60) 7 651 1022, 651 1186, 651 2210"
