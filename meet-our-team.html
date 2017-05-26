@@ -1,0 +1,32 @@
+---
+layout: about-us
+title: Meet Our Team
+---
+                            <div class="col-md-8 col-sm-12">
+                                <div class="our_services_heading3 mb-2">
+                                    <div>{{ page.title }}</div>
+                                </div>
+                                <div class="mb-2">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eros lorem, auctor ut vestibulum in, ultrices sit amet est. Pellentesque non turpis eu dui sollicitudin consequat convallis ornare leo. Maecenas euismod bibendum purus, nec luctus elit accumsan id. Curabitur fermentum commodo elementum. Maecenas imperdiet lectus sit amet nibh facilisis, a venenatis eros pulvinar. Nullam at ante at urna ultrices tincidunt. Nunc id consectetur quam, ac tristique ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem nibh, elementum eget vulputate fringilla, aliquet nec nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere tincidunt tincidunt. Ut libero purus, aliquet at massa quis, fringilla volutpat velit.</p>
+                                </div>
+                                <div class="portfolio-row">
+                                    <div class="portfolioContainer portfolioContainer-full row" id="da-thumbs">
+                                        <ul class="project-masonry">
+{% for img in site.data.meet-our-team %}
+                                            <li class="grid-item our-projects-wrapper col-md-4 col-sm-6 mb-3">
+                                                <div class="project-media-cover-wrapper">
+                                                    <div class="project-entry-media">
+                                                        <img src="/images/meet-our-team/{{ img }}.jpg" alt="">
+                                                    </div>
+                                                    <div class="project-entry-cover">
+                                                        <a data-rel="prettyPhoto" href="/images/meet-our-team/{{ img }}_hires.jpg">
+                                                            <div class="project-overlay our-projects-container"></div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </li>
+{% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>

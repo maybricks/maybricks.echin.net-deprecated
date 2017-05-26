@@ -1,0 +1,15 @@
+- position: Finance Manager
+  dept: Finance
+  location: Kulai, Johor
+  type: Full Time
+  date_posted: 11 May 2017
+- position: Designer
+  dept: Design
+  location: Kulai, Johor
+  type: Part Time
+  date_posted: 13 May 2017
+- position: Technician
+  dept: IT
+  location: Kulai, Johor
+  type: Part Time
+  date_posted: 15 May 2017

@@ -30,7 +30,13 @@
       link: /about-us.html
     - name: Our History
       link: /our-history.html
+    - name: Meet Our Team
+      link: /meet-our-team.html
     - name: Bricks Manufacturing Process
       link: /manufacturing-process.html
+    - name: Jobs Opportunity
+      link: /career.html
+    - name: Charity Contribution or Application
+      link: /charity.html
 - name: Contact Us
   link: /contact-us.html

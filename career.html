@@ -1,0 +1,68 @@
+---
+layout: about-us
+title: Jobs Opportunity
+---
+                            <div class="col-md-8 col-sm-12">
+                                <div class="our_services_heading3 mb-2">
+                                    <div>{{ page.title }}</div>
+                                </div>
+                                <div class="mb-2">
+                                    <p>We’re always looking for talented, passionate people – both experienced professionals and recent graduates – across a wide range of disciplines. We want individuals who share our Core Values and who demonstrate a true passion for what they do, whether in the field or in the office. We value the richness that diversity brings to our workforce - it makes our Company better and the communities we serve stronger.</p>
+                                </div>
+                                <div class="mb-2 row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <img width="370" height="250" src="/images/career_1.jpg" alt="" />
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="aboutus_list">
+                                            <ul>
+                                                <li>Professional environment.</li>
+                                                <li>Be trainned every year with latest technology.</li>
+                                                <li>Work with highly skills partners.</li>
+                                                <li>Good treatment from company.</li>
+                                                <li>Good opportunity  for higher position.</li>
+                                                <li>Can choose the location working.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our_services_heading4 mb-2">
+                                    <div>Find a job</div>
+                                </div>
+                                <div class="mb-2">
+                                    <p>
+                                        Time is usually valued at some point by money. Quality is valued by experience and accurate communication.
+                                    </p>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="job_listings">
+                                        <ul class="job_listings">
+{% for job in site.data.career %}
+                                            <li class="job_listing">
+                                                <a href="#">
+                                                    <img class="company_logo" src="/images/job/company.png" alt="" />
+                                                    <div class="position">
+                                                        <h3>{{ job.position }}</h3>
+                                                        <div class="company">
+                                                            <strong>{{ job.dept }}</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="location">
+                                                        {{ job.location }}
+                                                    </div>
+                                                    <ul class="meta">
+                                                        <li class="job-type">{{ job.type }}</li>
+                                                        <li class="date"><span>{{ job.date_posted }}</span></li>
+                                                    </ul>
+                                                </a>
+                                            </li>
+{% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem dignissimos doloribus, dolorum eius excepturi, exercita tionem iste iure neque optio perferendis possimus qui sint soluta ullam.
+                                    </p>
+                                </div>
+                            </div>
