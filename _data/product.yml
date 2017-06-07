@@ -1,0 +1,34 @@
+- type: Common Solid Bricks
+  subtypes:
+  - subtype: Common Clay Bricks (Solid)
+    images:
+    - MB_SL
+- type: Common Blocks
+  subtypes:
+  - subtype: Common Clay Block 3 Hole
+    images:
+    - MB_3H469
+  - subtype: Common Clay Block 10 Hole
+    images:
+    - MB_10H469
+- type: Modular Bricks
+  subtypes:
+  - subtype: M211 Modular Bricks
+    images:
+    - MB_M211
+- type: Facing Bricks
+  subtypes:
+  - subtype: Rockface Bricks
+    images:
+    - MB_RF-02K
+    - MB_RF-05K
+- type: Brick Tiles
+  subtypes:
+  - subtype: Rockface Tiles
+    images:
+    - MB_RF-02K
+    - MB_RF-05K
+  - subtype: Veneer Tiles
+    images:
+    - MB_WST-04K
+    - MB_WST-05K

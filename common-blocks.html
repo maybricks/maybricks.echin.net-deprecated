@@ -1,0 +1,233 @@
+---
+layout: products
+title: Common Blocks
+---
+                            <div class="col-md-8 col-sm-12">
+                                <div class="commerce single-product">
+                                    <div class="product">
+                                        <div class="our_services_heading3 mb-2">
+                                            <div>{{ page.title }}</div>
+                                        </div>
+                                        <div class="mb-2 row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="slider-nivo theme-default">
+                                                    <div class="nivoSlider">
+{% for product in site.data.product %}
+    {% if product.type == page.title %}
+        {% for subtype in product.subtypes %}
+            {% for image in subtype.images %}
+                                                        <a class="prettyphoto nivo-imageLink" href="images/products/{{ image }}.jpg" data-rel="prettyPhoto[rel-slider]" style="display: block;">
+                                                            <img src="images/products/{{ image }}.jpg" alt="" style="visibility: hidden; display: inline;">
+                                                        </a>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="our_services_heading3 mb-2">
+                                            <div>Specifications</div>
+                                        </div>
+                                        <div class="mb-2 commerce-tabs">
+                                            <ul class="nav nav-tabs tabs">
+                                                <li class="active">
+                                                    <a data-toggle="tab" href="#tab-1">Common Clay Block 3 Hole</a>
+                                                </li>
+                                                <li>
+                                                    <a data-toggle="tab" href="#tab-2">Common Clay Block 10 Hole</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade in active" id="tab-1">
+                                                    <table class="shop_attributes">
+                                                        <tr class="alt">
+                                                            <th>Product Code</th>
+                                                            <td colspan="2">MB/3H469</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <td colspan="2">Common Clay Block 3 Hole</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Manufactured</th>
+                                                            <td colspan="2">Maybricks, Malaysia</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Application</th>
+                                                            <td colspan="2">Building</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="3">Test Method MS 76 : 1972 / SS103 : 1974 / BS 3921 1974</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th rowspan="3">Typical Dimension</th>
+                                                            <th>Length</th>
+                                                            <td>215 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Width</th>
+                                                            <td>100 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Height</th>
+                                                            <td>135 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th rowspan="3">Overall Measurement of 24 pcs of Bricks</th>
+                                                            <th>Length</th>
+                                                            <td>5175 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Width</th>
+                                                            <td>2377 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Height</th>
+                                                            <td>3264 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Approximate Unit Weight</th>
+                                                            <td>4.3 kg</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Approximate No. Per Square Meter</th>
+                                                            <td>33 pcs</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Pieces Per Pallet</th>
+                                                            <td>400 pcs</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Average Unconfined Compressive Strength</th>
+                                                            <td>25.5 N/mm&sup2;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Density</th>
+                                                            <td>1478 kg/m&sup3;</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Average 5 Hour Boiling Water Absorption</th>
+                                                            <td>14.50%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Mean Wet Skid Resistance Value</th>
+                                                            <td>N.A.</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Efflorescence</th>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Salt Content</th>
+                                                            <td>< 1%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Notes</th>
+                                                            <td colspan="2">Common Block intended for general building work but having no special claim to give an attractive appearance</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Disclaimer</th>
+                                                            <td colspan="2">This data represents average results from commercial production lots. If specific test results are required, samples should be taken from current production lots.</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-2">
+                                                    <table class="shop_attributes">
+                                                        <tr class="alt">
+                                                            <th>Product Code</th>
+                                                            <td colspan="2">MB/10H469</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <td colspan="2">Common Clay Block 10 Hole</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Manufactured</th>
+                                                            <td colspan="2">Maybricks, Malaysia</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Application</th>
+                                                            <td colspan="2">Building</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="3">Test Method MS 76 : 1972 / SS103 : 1974 / BS 3921 1974</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th rowspan="3">Typical Dimension</th>
+                                                            <th>Length</th>
+                                                            <td>215 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Width</th>
+                                                            <td>100 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Height</th>
+                                                            <td>135 mm (&plusmn; 3mm)</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th rowspan="3">Overall Measurement of 24 pcs of Bricks</th>
+                                                            <th>Length</th>
+                                                            <td>5136 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Width</th>
+                                                            <td>2378 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Height</th>
+                                                            <td>3273 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Approximate Unit Weight</th>
+                                                            <td>4.2 kg</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Approximate No. Per Square Meter</th>
+                                                            <td>33 pcs</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Pieces Per Pallet</th>
+                                                            <td>400 pcs</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Average Unconfined Compressive Strength</th>
+                                                            <td>26 N/mm&sup2;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Density</th>
+                                                            <td>1470 kg/m&sup3;</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Average 5 Hour Boiling Water Absorption</th>
+                                                            <td>14.00%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Mean Wet Skid Resistance Value</th>
+                                                            <td>N.A.</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th colspan="2">Efflorescence</th>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="2">Average Salt Content</th>
+                                                            <td>< 1%</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Notes</th>
+                                                            <td colspan="2">Common Block intended for general building work but having no special claim to give an attractive appearance</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Disclaimer</th>
+                                                            <td colspan="2">This data represents average results from commercial production lots. If specific test results are required, samples should be taken from current production lots.</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>

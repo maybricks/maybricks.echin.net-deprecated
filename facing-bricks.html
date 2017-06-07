@@ -1,0 +1,113 @@
+---
+layout: products
+title: Facing Bricks
+---
+                            <div class="col-md-8 col-sm-12">
+                                <div class="commerce single-product">
+                                    <div class="product">
+                                        <div class="our_services_heading3 mb-2">
+                                            <div>{{ page.title }}</div>
+                                        </div>
+                                        <div class="mb-2 row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="slider-nivo theme-default">
+                                                    <div class="nivoSlider">
+{% for product in site.data.product %}
+    {% if product.type == page.title %}
+        {% for subtype in product.subtypes %}
+            {% for image in subtype.images %}
+                                                        <a class="prettyphoto nivo-imageLink" href="images/products/{{ image }}.jpg" data-rel="prettyPhoto[rel-slider]" style="display: block;">
+                                                            <img src="images/products/{{ image }}.jpg" alt="" style="visibility: hidden; display: inline;">
+                                                        </a>
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="our_services_heading3 mb-2">
+                                            <div>Specifications</div>
+                                        </div>
+                                        <div class="mb-2 commerce-tabs">
+                                            <ul class="nav nav-tabs tabs">
+                                                <li class="active">
+                                                    <a data-toggle="tab" href="#tab-1">Rockface Brick 05K</a>
+                                                </li>
+                                                <li>
+                                                    <a data-toggle="tab" href="#tab-2">Rockface Brick 02K</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade in active" id="tab-1">
+                                                    <table class="shop_attributes">
+                                                        <tr class="alt">
+                                                            <th>Product Code</th>
+                                                            <td colspan="2">MB/RF-05K</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <td colspan="2">Rockface Brick 05K</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Manufactured</th>
+                                                            <td colspan="2">Maybricks, Malaysia</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th rowspan="3">Typical Dimension</th>
+                                                            <th>Length</th>
+                                                            <td>215 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Width</th>
+                                                            <td>90 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Height</th>
+                                                            <td>67 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Image</th>
+                                                            <td colspan="2"><img src="images/products/MB_RF-05K.jpg" /></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-2">
+                                                    <table class="shop_attributes">
+                                                        <tr class="alt">
+                                                            <th>Product Code</th>
+                                                            <td colspan="2">MB/RF-02K</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <td colspan="2">Rockface Brick 02K</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Manufactured</th>
+                                                            <td colspan="2">Maybricks, Malaysia</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th rowspan="3">Typical Dimension</th>
+                                                            <th>Length</th>
+                                                            <td>215 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Width</th>
+                                                            <td>90 mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Height</th>
+                                                            <td>67 mm</td>
+                                                        </tr>
+                                                        <tr class="alt">
+                                                            <th>Image</th>
+                                                            <td colspan="2"><img src="images/products/MB_RF-02K.jpg" /></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>

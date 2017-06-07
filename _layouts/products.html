@@ -1,0 +1,45 @@
+---
+layout: default
+---
+                <div class="big-title">
+                    <div class="container">
+                        <h1 class="entry-title">{{ page.title }}</h1>
+                        <div class="breadcrumb">
+                            <div class="container">
+                                <ul class="tm_bread_crumb">
+                                    <li class="top"><a href="/">Home</a></li>
+                                    <li class="sub tail current">{{ page.title }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="sidebar">
+                                    <div class="widget better-menu-widget">
+                                        <div class="menu-our-services-container">
+                                            <ul class="menu">
+{% for nav in site.data.navigation %}
+    {% if nav.name == 'Products' %}
+        {% for subnav in nav.subnavs %}
+            {% assign class = "" %}
+
+            {% if page.title == subnav.name %}
+                {% assign class = class | append: "current-menu-item" %}
+            {% endif %}
+                <li{% if class %} class="{{ class }}"{% endif %}><a href="{{ subnav.link }}">{{ subnav.name }}</a></li>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
