@@ -69,6 +69,14 @@ a:hover .site-title {
     margin-top: 0;
 }
 
+.commerce table.shop_attributes td {
+    font-style: normal;
+}
+
+.commerce table.shop_attributes th {
+    width: 240px;
+}
+
 .site-footer .widget img {
     margin: 0;
 }

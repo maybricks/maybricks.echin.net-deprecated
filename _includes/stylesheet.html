@@ -1,3 +1,7 @@
 {% for stylesheet in site.data.stylesheet %}
         <link rel="stylesheet" href="/css/{{ stylesheet }}.css" type="text/css" media="all" />
 {% endfor %}
+{% if page.layout == 'products' %}
+        <link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="all" />
+{% endif %}
+        <link rel="stylesheet" href="/css/maybricks.css" type="text/css" media="all" />

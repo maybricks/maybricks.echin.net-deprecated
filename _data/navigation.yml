@@ -3,15 +3,15 @@
 - name: Products
   subnavs:
     - name: Common Solid Bricks
-      link: "#"
+      link: /common-solid-bricks.html
     - name: Common Blocks
-      link: "#"
+      link: /common-blocks.html
+    - name: Modular Bricks
+      link: /modular-bricks.html
     - name: Facing Bricks
-      link: "#"
-    - name: Clay Pavers
-      link: "#"
+      link: /facing-bricks.html
     - name: Brick Tiles
-      link: "#"
+      link: /brick-tiles.html
 - name: Projects
   subnavs:
     - name: Project 1
