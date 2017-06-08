@@ -1,0 +1,42 @@
+---
+layout: default
+---
+                <div class="big-title">
+                    <div class="container">
+                        <h1 class="entry-title">{{ page.title }}</h1>
+                        <div class="breadcrumb">
+                            <div class="container">
+                                <ul class="tm_bread_crumb">
+                                    <li class="top"><a href="/">Home</a></li>
+                                    <li class="sub tail"><a href="/projects.html">All Projects</a></li>
+                                    <li class="sub tail current">{{ page.subtitle }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-projects">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="myportfolio-container minimal-light" id="our-projects">
+{% if page.subtitle == 'All Projects' %}
+                                    <div class="mb-6">
+                                        <div class="filter-wrapper">
+                                            <a href="#" class="filterbutton selected" data-filter="*">All Projects</a>
+{% for project in site.data.project %}
+                                            <a href="#" class="filterbutton" data-filter=".filter-{{ project.slug }}">{{ project.name }}</a>
+{% endfor %}
+                                        </div>
+                                    </div>
+{% else %}
+                                    <div class="mb-6">
+                                        <h3>{{ page.subtitle }}</h3>
+                                    </div>
+{% endif %}
+{{ content }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>

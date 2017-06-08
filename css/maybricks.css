@@ -77,6 +77,13 @@ a:hover .site-title {
     width: 200px;
 }
 
+.our-projects-title {
+    color: #eee;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .site-footer .widget img {
     margin: 0;
 }

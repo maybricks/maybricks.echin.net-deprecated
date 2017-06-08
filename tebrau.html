@@ -1,0 +1,35 @@
+---
+layout: projects
+title: Projects
+subtitle: Tebrau
+---
+                            <div class="portfolio-row">
+                                <div class="portfolioContainer portfolioContainer-full row" id="da-thumbs">
+                                    <ul class="project-masonry">
+{% for project in site.data.project %}
+    {% if page.subtitle == project.name %}
+        {% for image in project.images %}
+                                        <li class="grid-item filter-{{ project.slug }} our-projects-wrapper col-md-4 col-sm-6 mb-3">
+                                            <div class="project-media-cover-wrapper">
+                                                <div class="project-entry-media">
+                                                    <img src="images/projects/{{ image }}.jpg" alt="" />
+                                                </div>
+                                                <div class="project-entry-cover">
+                                                    <a data-rel="prettyPhoto" href="images/projects/{{ image }}.jpg">
+                                                        <div class="project-overlay our-projects-container"></div>
+                                                        <div class="project-content">
+                                                            <div class="line-clear"></div>
+                                                            <div class="our-projects-title">
+                                                                {{ project.name }}
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
