@@ -1,29 +1,5 @@
 - name: Home
   link: /
-- name: Products
-  subnavs:
-    - name: Common Solid Bricks
-      link: /common-solid-bricks.html
-    - name: Common Blocks
-      link: /common-blocks.html
-    - name: Modular Bricks
-      link: /modular-bricks.html
-    - name: Facing Bricks
-      link: /facing-bricks.html
-    - name: Brick Tiles
-      link: /brick-tiles.html
-- name: Projects
-  subnavs:
-    - name: All Projects
-      link: /projects.html
-    - name: Johor Bahru
-      link: /johor-bahru.html
-    - name: Indah Putra
-      link: /indah-putra.html
-    - name: Tebrau
-      link: /tebrau.html
-    - name: Plentong
-      link: /plentong.html
 - name: About Us
   subnavs:
     - name: Company Profile
@@ -36,7 +12,29 @@
       link: /manufacturing-process.html
     - name: Jobs Opportunity
       link: /career.html
-    - name: Charity Contribution or Application
-      link: /charity.html
+- name: Products
+  subnavs:
+    - name: Common Solid Bricks
+      link: /common-solid-bricks.html
+    - name: Common Blocks
+      link: /common-blocks.html
+    - name: Modular Bricks
+      link: /modular-bricks.html
+    - name: Facing Bricks
+      link: /facing-bricks.html
+    - name: Brick Tiles
+      link: /brick-tiles.html
+- name: Recent Projects
+  subnavs:
+    - name: Recent Projects
+      link: /projects.html
+    - name: Johor Bahru
+      link: /johor-bahru.html
+    - name: Indah Putra
+      link: /indah-putra.html
+    - name: Tebrau
+      link: /tebrau.html
+    - name: Plentong
+      link: /plentong.html
 - name: Contact Us
   link: /contact-us.html
