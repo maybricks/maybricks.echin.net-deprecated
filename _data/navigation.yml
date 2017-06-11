@@ -3,13 +3,11 @@
 - name: About Us
   subnavs:
     - name: Company Profile
-      link: /about-us.html
-    - name: Our History
-      link: /our-history.html
+      link: /company-profile.html
     - name: Meet Our Team
       link: /meet-our-team.html
-    - name: Bricks Manufacturing Process
-      link: /manufacturing-process.html
+    - name: Bricks Manufacturing
+      link: /bricks-manufacturing.html
     - name: Jobs Opportunity
       link: /career.html
 - name: Products
